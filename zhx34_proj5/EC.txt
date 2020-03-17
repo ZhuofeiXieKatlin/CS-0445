@@ -1,0 +1,13 @@
+Zhuofei Xie (Extra credit)
+
+toString:        4.0 * x + y / 9.0 + 12.0
+toPostfix:       4.0 x * y 9.0 / + 12.0 +
+evaluate:        55.0
+reciprocal:      1.0 /( 4.0 * x + y / 9.0 + 12.0)
+reciprocal(num): 0.14285714285714285
+reciprocal(div): (10.0 / x)
+getVariables:    [x, y]
+geometricMean:   (4.0 * 9.0 * 3.0 * 7.0 * 6.0) ^ 0.2
+it evalutes to:  5.3868466094227525
+===================================================
+NOW TEST MORE THOROUGHLY!!!
