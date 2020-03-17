@@ -1,0 +1,31 @@
+Zhuofei Xie 4222848 
+extra credit:
+1. Support more names by allowing the user to define names on the command line, like:
+2. Detect semantic errors - errors in meaning
+ 1)Divide-by-Zero
+   Test: 6/0
+   Output: ExpressionError: The denominator cannot be zero
+           Evaluator returned null
+ 2)Results that are too big to be represented(infinities)
+   Test: 1111^111111111111111111111111111111111111111111111111
+   Output: ExpressionError: The result is an infinite number 
+           Evaluator returned null
+3. Allow more features
+ 1)Hexadecimal numbers, like 0xDC04
+   a. Test: 0xDC04
+      Output: 56324.0
+   b. Test: 
+   
+ 2)More Operators
+  Check precedence/associativity tables for e.g. Java to get the right precedences.
+  input: 95 % 30
+  output: 5.0
+
+  input: 8 + 65 % 60 + (3+3)^2
+  output: 49.0
+ 3) Trig functions, like sin(pi)?
+ 4)Negation, like -(4 * 5)?
+   Test: -(4+2)
+   Output: -6.0
+   Test: -(3+2)+9
+   output: 4.0
